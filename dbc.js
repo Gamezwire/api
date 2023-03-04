@@ -1,4 +1,4 @@
-var mysql = require('pg');
+var { Client } = require('pg');
 var con = new Client({
     host: "dpg-cg1l2do2qv25u2hk5u2g-a",
     user: "data_b3ss_user",
